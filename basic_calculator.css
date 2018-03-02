@@ -1,0 +1,76 @@
+h1{
+    font-family: fantasy;
+    font-size: 40px;
+}
+.calcbody{
+    background-color: aqua;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 290px;
+    height: 300px;
+    position: relativ;
+    top: 80px;
+    left: 50px;
+}
+#display_result{
+    text-align: right;
+    width: 230px;
+    height: 25px;
+    background-color: #496856;
+    color: black;
+    font-size: 20px;
+    left: 10px;
+}
+#enter_value{
+    text-align: right;
+    width: 230px;
+    height: 25px;
+    background-color: #496856;
+    color: black;
+    font-size: 20px
+}
+/* #calcbutton{
+    position: absolute;
+    top: 15px;
+    text-align: center;
+}*/
+button{
+    /*border-radius: px; */ 
+   
+    font: 20px bold;
+   /* margin: auto;*/
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(134, 134, 160);
+    color: black;
+}
+#btn {
+    background-color: yellow;
+    color: black;
+    width: 50px;
+}
+#btnum{
+    background-color: blueviolet;
+    color: black;
+    width: 50px;
+}
+#btnop{
+    background-color: rgb(174, 96, 226);
+    color: black;
+    width: 50px;
+}
+#btneq{
+    background-color: rgb(8, 8, 8);
+    color: rgb(250, 250, 250);
+    width: 50px;
+}
+#btnoplus{
+    background-color: rgb(174, 96, 226);
+    color: black;
+    width: 50px;
+    height: 65px;
+    position: absolute;
+    padding-top: 1px;
+}

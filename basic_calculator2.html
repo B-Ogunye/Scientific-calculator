@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Calcuator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="basic_calculator.css">
+        
+    </head>
+    <body>
+        <h1><marquee>Perform Basic Calculations here</marquee></h1>
+        <div class="calculator">
+            <table class="calcbody">
+                <form name="result_panel">
+                    <tr>
+                        <td colspan="6">
+                            <input id="enter_value" name="enter" type="text" value="" size="40" maxlength="30" /><br>
+                            <input id="display_result" name="display" type="text" value="" />
+                        </td>
+                                
+                    </tr>
+                </form>
+                <div class ="calcbutton">
+                    <tr>
+                        <td colspan="2"><input type="radio" name="angle" checked="checked" onclick="deg();">Deg</td>
+                        <td colspan="2"><input type="radio" name="angle" onclick="rad();">Rad</td>
+                        <td colspan="2"><input type="radio" name="angle" onclick="grad();">Grad</td>
+                    </tr>
+                    <tr>
+                        <td><button id="btn" onclick="clr();">C</button></td>
+                        <td><button id="btn" onclick="del();">DEL</button></td>
+                        <td><button id="btneq" onclick="equals();">=</button></td>
+                        <td><button id="btnop" onclick="sin();">sin</button></td>
+                        <td><button id="btnop" onclick="arcsin();">asin</button></td>
+                        <td><button id="btnop" onclick="divideop();">/</button></td>
+                        <td><button id="btnop" onclick="percentop();">%</button></td>  
+                    </tr>
+                    <tr>
+                        <td><button id="btnum" onclick="num7();">7</button></td>
+                        <td><button id="btnum" onclick="num8();">8</button></td>
+                        <td><button id="btnum" onclick="num9();">9</button></td>
+                        <td><button id="btnop" onclick="cos();">cos</button></td>
+                        <td><button id="btnop" onclick="arccos();">acos</button></td>
+                        <td><button id="btnop" onclick="multop();">*</button></td>
+                        <td><button id="btnop" onclick="factorial();">!</button></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><button id="btnum" onclick="num4();">4</button></td>
+                        <td><button id="btnum" onclick="num5();">5</button></td>
+                        <td><button id="btnum" onclick="num6();">6</button></td>
+                        <td><button id="btnop" onclick="tan();">tan</button></td>
+                        <td><button id="btnop" onclick="arctan();">atan</button></td>
+                        <td><button id="btnop" onclick="subop();">-</button></td>
+                        <td><button id="btnop" onclick="raise();">x^y</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="btnum" onclick="num1();">1</button></td>
+                        <td><button id="btnum" onclick="num2();">2</button></td>
+                        <td><button id="btnum" onclick="num3();">3</button></td>
+                        <td><button id="btnop" onclick="log();">log</button></td>
+                        <td><button id="btnop" onclick="pi();">pi</button></td>
+                        <td><button id="btnoplus" onclick="addop();">+</button></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><button id="btnop" onclick="float();">.</button></td>
+                        <td><button id="btnum" onclick="num0();">0</button></td>
+                        <td><button id="btnop" onclick="ln();">ln</button></td>
+                        <td><button id="btnop" onclick="e();">E</button></td>
+                        <td><button id="btnop" onclick="sqrtop();">Sqrt</button></td>   
+                        
+                        
+                    </tr>
+                </div>
+
+            </table>
+        </div>
+            
+           
+
+        <script src="basic_calculator.js"></script>
+    </body>
+</html>
